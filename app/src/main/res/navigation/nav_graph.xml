@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/listItemFragment">
+
+    <fragment
+        android:id="@+id/listItemFragment"
+        android:name="com.example.moneymanager.ui.fragment.ListItemFragment"
+        android:label="ListItemFragment"
+        tools:layout="@layout/fragment_list_item">
+        <action
+            android:id="@+id/action_listItemFragment_to_addItemFragment"
+            app:destination="@id/addItemFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addItemFragment"
+        android:name="com.example.moneymanager.ui.fragment.AddItemFragment"
+        android:label="AddItemFragment"
+        tools:layout="@layout/fragment_add_item">
+        <action
+            android:id="@+id/action_addItemFragment_to_listItemFragment"
+            app:destination="@id/listItemFragment"
+            app:popUpTo="@id/listItemFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+</navigation>

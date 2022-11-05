@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">MoneyManager</string>
+    <string name="income_text">Income</string>
+    <string name="expenditure_text">Expenditure</string>
+    <string name="date_text">Tanggal</string>
+    <string name="amount_text">Jumlah</string>
+    <string name="notes_text">Catatan</string>
+    <string name="save_text">Save</string>
+    <string name="balance_text">balance</string>
+    <string name="monthly_income_text">monthly income</string>
+    <string name="monthly_expenditure_text">monthly expenditure</string>
+    <string name="warning_image">Warning Image</string>
+    <string name="monthly_expenditure_limit_text">monthly expenditure limit</string>
+    <string name="history_image">History Image</string>
+    <string name="history_text">History</string>
+    <string name="add_text">Add Button</string>
+    <string name="trash_text">Rubbish Bin</string>
+    <string name="add_item_text">Add Item</string>
+
+</resources>
